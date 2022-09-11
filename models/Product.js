@@ -11,7 +11,7 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
-    product_id: {
+    id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
@@ -35,6 +35,10 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       //TODO _______ References the category model's id
+      references: {
+        model: "category",
+        key: "id",
+      },
     },
   },
   {
