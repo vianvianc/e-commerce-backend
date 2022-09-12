@@ -2,6 +2,8 @@
 
 This is a backend for an e commerce site
 It has a working express.js api configured to use sequelize with MySQL
+Here is a video demonstrating the functional get, post, put and delete routes in insomnia
+https://watch.screencastify.com/v/pRc57z0C131ocUWYz96y
 
 User Story
 GIVEN a functional Express.js API
